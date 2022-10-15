@@ -35,3 +35,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - akita entity service
 - angular material
 - material icons
+
+# Git Strategry
+
+## Branches
+
+- main: our prod branch
+- master-dev: our dev branch
+
+## Rules
+
+- create feature branch basing from master-dev
+- feature branch convention: "name-feature"
+- fix branch convention: "name-fix-feature_that_you_fix"
+- Make PR at master-dev, make yourself an assignee then reviewer will be Sr.FE
+- I Sr.FE do PR from dev to main
