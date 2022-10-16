@@ -1,2 +1,16 @@
 @import "material-icons/iconfont/filled.css";
 @import "material-icons/iconfont/outlined.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Visby Round CF";
+  src: local("Visby Round CF"),
+    url("./assets/fonts/VisbyRoundCF-Regular.woff") format("woff"),
+    url("./assets/fonts/VisbyRoundCF-Regular.woff") format("woff2"),
+    url("./assets/fonts/VisbyRoundCF-Bold.woff") format("woff"),
+    url("./assets/fonts/VisbyRoundCF-Bold.woff") format("woff2"),
+    url("./assets/fonts/VisbyRoundCF-Heavy.woff") format("woff"),
+    url("./assets/fonts/VisbyRoundCF-Heavy.woff") format("woff2");
+}
